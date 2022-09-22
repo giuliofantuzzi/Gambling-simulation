@@ -16,6 +16,4 @@ The game is obviously **unfair**: the winning percentage is 49% for the gambler 
 
 **Many people would take the risk once to try their luck, but what happens if they keep on playing?**
 
-The aim of my little simulation is to show the correlation between the number of bets played and the expected loss for the gambler. 
-
-The idea behind my project is to prove that "the more he plays, the more he loses" or, in other words, that ***"The house always wins!"***
+The aim of my little simulation is to show the correlation between the number of bets played and the expected loss for the gambler. The idea behind my project is to prove that "the more he plays, the more he loses" or, in other words, that ***"The house always wins!"***
