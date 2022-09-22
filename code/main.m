@@ -22,5 +22,8 @@ M=montecarlo_matrix(initial_amount,bet_amount, n_bet,n_rep);
 plot_montecarlo(M);
 %--------------------------------------------------------------------------
 % EXPECTED FINAL AMOUNT
-final_amount= mean(M(end,:))
+expected_final_amount= mean(M(end,:));
+%--------------------------------------------------------------------------
+% EXPECTED LOSS
+expected_loss= initial_amount - expected_final_amount;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
