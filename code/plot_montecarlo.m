@@ -5,5 +5,4 @@ function []=plot_montecarlo(M)
     title("Montecarlo simulation (Bets="+string(nrows-1)+")")
     xlabel("Number of bets")
     ylabel("Amount available ($)")
-    %abbellimenti da aggiungere
 end
